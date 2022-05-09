@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <br>
+    <a href="/logout">LogOut</a>
+</head>
+<body>
+<h2>Coupon Details</h2>
+CouponId:<b th:text = "${coupon.id}"></b><br>
+Code:<b th:text = "${coupon.code}"></b><br>
+Discount:<b th:text = "${coupon.discount}"></b>
+
+
+
+</body>
+</html>
